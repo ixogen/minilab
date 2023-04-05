@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MiniLab проект для вивчення програмування. Придбати мобільну техніку, Комп’ютери. Упорядковуйте свої нотатки та події.</title>
+</head>
+<body>
+    <div class="opacity darkbox" id="darkbox"></div>
+    <div class="flexenter">
+        <div class="enterform close" id="fixed">
+            <p>Вхід</p>
+            <form action="#" class="form-check">
+                <input class="none exit-fix" id="exit" name="exit" type="checkbox">
+                <label class="exit-fix" for="exit">+</label>
+                <p class="input-main">
+                    <label for="email" class=""></label>
+                    <input type="email" name="email" placeholder="Електронна адреса">
+                </p>
+                <p class="input-main">
+                    <label for="password"></label>
+                    <input type="password" name="password" placeholder="Пароль">
+                </p>
+                <button type="submit" class="submit">Продовжити</button>
+                <p class="last-check">Забули пароль? <a href="#">Відновити.</a></p>
+            </form>
+        </div>
+    </div>
+    <header>
+        <div class="flex-between wrap">
+            <div class="burger" id="burger">
+                <span></span>
+            </div>
+            <div class="firs-navigation flex-menu">
+                <div class="logo">
+                    <p><a href="index.html"><b>Mini</b>Lab</a></p>
+                </div>
+                <div class="menu">
+                    <nav class="main-menu">
+                        <ul class="flex-between head-navigation">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Surface</a></li>
+                            <li><a href="#">Xbox</a></li>
+                            <li><a href="#">Підтримка</a></li>
+                            <li class="hidden"><a class="arrow-hidden" href="#">Додатково</a>
+                                <div class="hidden-block">
+                                    <table class="wrapper main-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Прогрaмне забезпечення</th>
+                                                <th>Комп’ютери та пристрої</th>
+                                                <th>Розваги</th>
+                                                <th>Бізнес</th>
+                                                <th>DevTools & IT</th>
+                                                <th>Інше</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="#">Програми для ОС</a></td>
+                                                <td><a href="#">Планшети</a></td>
+                                                <td><a href="#">Ігри</a></td>
+                                                <td><a href="#">Реклама</a></td>
+                                                <td><a href="#">Sublime Text 3</a></td>
+                                                <td><a href="#">Наш магазин</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Skype</a></td>
+                                                <td><a href="#">Аксесуари та інше</a></td>
+                                                <td><a href="#">Ігри для ПК</a></td>
+                                                <td><a href="#">Корпоративні рішення</a></td>
+                                                <td><a href="#">Розробка програм для Android</a></td>
+                                                <td><a href="#">Безкоштовні завантаження</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4"><a href="#">Notepad++</a></td>
+                                                <td><a href="#">Документи</a></td>
+                                                <td><a href="#">Освіта</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="more-arrow">
+                                        <p class="more"><a href="#">Переглянути все</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mobile-menu mobile" id="mobile">
+                    <nav class="burger-menu">
+                        <ul class="head-navigation-burger">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Surface</a></li>
+                            <li><a href="#">Xbox</a></li>
+                            <li><a href="#">Підтримка</a></li>
+                            <li><a class="hidden-menu-sidebar" href="#">Додатково</a>
+                                <ul class="sidebar position-sidebar">
+                                    <li>
+                                        <a href="#">Прогрaмне забезпеченн</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Програми для ОС</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Skype</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Notepad++</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Комп’ютери та пристрої</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Планшети</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Аксесуари та інше</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Розваг</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Ігри</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ігри для ПК</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Бізне</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Реклама</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Корпоративні рішення</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">DevTools & I</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Sublime Text 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Розробка програм для Android</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Документи</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Іншe</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Наш магазин</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Безкоштовні завантаження</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Освіта</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="back"><a href="javascript:void(0)">Back</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="first-serch flex-between">
+                <div class="form-box">
+                    <form class="form" action="#">
+                        <div class="flex-button">
+                            <div><label class="label" for="text"></label></div>
+                            <div><input class="input" type="text" placeholder="Пошук на сайті"></div>
+                            <div><button type="submit" class="serch box buttonform"><a href="#"></a></button></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="box box-bask">
+                    <p class="bask"><a href="#"></a></p>
+                </div>
+                <div class="box" id="bottForm">
+                    <p class="enter"><a href="#">Вхід</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="formbox wrapper">
+            <form action="#">
+                <label class="label" for="text"></label>
+                <input class="input-mobile" type="text" placeholder="Пошук на сайті">
+                <button class="submit-mobile" type="submit"></button>
+            </form>
+        </div>
+        <main>
+            <section class="main-section">
+                <div class="main-info">
+                    <h1>Цікавий планшет</h1>
+                    <p class="info">Розкрий потенціал свого пристрою разом з нами всього за 250 грн/міс.</p>
+                    <p class="button arrow-button"><a href="#">придбати пристрій</a></p>
+                    <div class="arrow-span flex-between">
+                        <span class="span-left"><a class="arrowleft" href="#"></a></span>
+                        <span class="span-right"><a class="arrowright" href="#"></a></span>
+                    </div>
+                </div>
+            </section>
+            <!-- зробити вхід один блок як фон з опасіті -->
+            <!-- зробити другий блок форму входу -->
+            <!-- зробити карточки щоб помінялися за допомогоюю іф некст елемент сіблінг\превіоус елемент сіблінг -->
+            <section class="proposition">
+                <h2>перелік вдалих послуг</h2>
+                <div class="flex-between service">
+                    <figure>
+                        <figcaption>
+                            <a href="#"></a>
+                            <picture>
+                                <source srcset="img/magaz.webp" type="image/webp">
+                                <img src="img/magaz.jpg" alt="Магазин товарів Знайдіть технологію, оптимальну для обробки завдань удома, у школі, на роботі та для розваг.">
+                            </picture>
+                            <h3>Магазин товарів</h3>
+                            <p>Знайдіть технологію, оптимальну для обробки завдань удома, у школі, на роботі та для розваг.</p>
+                            <p class="arrow"><a href="#">Перейти та замовити</a></p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption>
+                            <a href="#"></a>
+                            <picture>
+                                <source srcset="img/huawei.webp" type="image/webp">
+                                <img src="img/huawei.jpg" alt="Безкоштовна програма електронної пошти для пристроїв з ОС iOS, Android і Samsung">
+                            </picture>
+                            <h3>Телефони Huawei</h3>
+                            <p>Безкоштовна програма електронної пошти для пристроїв з ОС iOS, Android і Samsung.</p>
+                            <p class="arrow double"><a href="#">Купити крутий телефон через нашу підписку</a></p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption>
+                            <a href="#"></a>
+                            <picture>
+                                <source srcset="img/onetouch.webp" type="image/webp">
+                                <img src="img/onetouch.jpg" alt="Планшет OneTouch Детальніше про девайс">
+                                <h3>Планшет OneTouch</h3>
+                                <p>Упорядковуйте свої нотатки та події.</p>
+                                <p class="arrow"><a href="#">Детальніше про девайс</a></p>
+                            </picture>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption>
+                            <a href="#"></a>
+                            <picture>
+                                <source srcset="img/adapt.webp" type="image/webp">
+                                <img src="img/adapt.jpg" alt="Адаптивні пристрої-втілюйте свої ідеї в життя в Інтернеті">
+                                <h3>Адаптивні пристрої</h3>
+                                <p>Легко втілюйте свої ідеї в життя в Інтернеті.</p>
+                                <p class="arrow"><a href="#">Приступити до роботи</a></p>
+                            </picture>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="bottom-info">
+                <div class="second-info">
+                    <h2>Отримай MacBook безкоштовно</h2>
+                    <p class="last-info">Залишайтеся на зв’язку, використовуючи будь-які пристрої, за допомогою безкоштовної поштової служби.</p>
+                    <p class="button button-second"><a href="#">придбати пристрій</a></p>
+                </div>
+            </section>
+            <section class="section-social">
+                <h2>Стежте за нами:</h2>
+                <div class="web flex-between">
+                    <p class="web-bott-exp"><a class="exp" href="#"></a></p>
+                    <p class="web-bott-chrome"><a class="chrome" href="#"></a></p>
+                    <p class="web-bott-opera"><a class="opera" href="#"></a></p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="bottom-menu flex-between wrapper">
+                <nav>
+                    <p>Що нового?</p>
+                    <ul>
+                        <li>
+                            <a href="#">Ліцензійні програми</a>
+                        </li>
+                        <li>
+                            <a href="#">Купити ключ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <p>Підтримка 24/7</p>
+                    <ul>
+                        <li>
+                            <a href="#">Обліковий запис</a>
+                        </li>
+                        <li>
+                            <a href="#">Лог завантажень</a>
+                        </li>
+                        <li>
+                            <a href="#">Повернення</a>
+                        </li>
+                        <li>
+                            <a href="#">Відстеження замовлення</a>
+                        </li>
+                        <li>
+                            <a href="#">Підтримка</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <p>Освіта</p>
+                    <ul>
+                        <li>
+                            <a href="#">Навчання</a>
+                        </li>
+                        <li>
+                            <a href="#">Студенти</a>
+                        </li>
+                        <li>
+                            <a href="#">Для навчальних закладів</a>
+                        </li>
+                        <li>
+                            <a href="#">Спеціальні пропозиції для викладачів</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <p>Бізнес</p>
+                    <ul>
+                        <li>
+                            <a href="#">Великий бізнес</a>
+                        </li>
+                        <li>
+                            <a href="#">Виробництво</a>
+                        </li>
+                        <li>
+                            <a href="#">Фінансові послуги</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <p>Розробка</p>
+                    <ul>
+                        <li>
+                            <a href="#">Центр розробників</a>
+                        </li>
+                        <li>
+                            <a href="#">Мережа</a>
+                        </li>
+                        <li>
+                            <a href="#">SkyNet</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <p>Компанія</p>
+                    <ul>
+                        <li>
+                            <a href="#">Вакансія</a>
+                        </li>
+                        <li>
+                            <a href="#">Конфіденційність</a>
+                        </li>
+                        <li>
+                            <a href="#">Інвертар</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="wrapper bottom flex-between">
+                <div class="language">
+                    <p><a class="lang" href="#">Вибір мови (Українська)</a></p>
+                </div>
+                <div class="foot flex-between">
+                    <p><a href="#">Контактні дані</a></p>
+                    <p><a href="#">Положення про конфіденціальність</a></p>
+                    <p><a href="#">Умови використання</a></p>
+                    <p><a href="#">Відомості про рекламу</a></p>
+                    <p><a href="#">MiniLab 2018.</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    const burger = document.querySelector('.burger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const button = document.querySelector('.button');
+    const serch = document.querySelector('.serch');
+    const formbox = document.querySelector('.formbox');
+    burger.addEventListener('click', function() {
+      this.classList.toggle('active');
+      mobileMenu.classList.toggle('activemobile');
+      button.classList.toggle('activebutton');
+      formbox.classList.toggle('formboxEnd')
+    });
+    serch.addEventListener('click', function () {
+        this.classList.toggle('activeserch');
+        formbox.classList.toggle('activeform');
+    });
+    exit.onclick = function () {
+        fixed.style.display = "none"
+        darkbox.style.display = "none"
+
+    }
+    bottForm.onclick = function () {
+        fixed.style.display = "block"
+        darkbox.style.display = "block"
+    }
+  </script>
+</html>
